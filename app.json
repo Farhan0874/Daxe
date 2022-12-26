@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "daXe",
+    "slug": "daXe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.daXe",
+      "config":{
+        "googleMapsApiKey" :"AIzaSyCnX_mZ2Z1OmUacOgGx6jiMZyoa7RWHW_A"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions":["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION","FOREGROUND_SERVICE"],
+    "package":"com.daXe",
+    "config" :{
+      "googleMaps":{
+        "apiKey":"AIzaSyCnX_mZ2Z1OmUacOgGx6jiMZyoa7RWHW_A"
+      }
+    }
+    
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
